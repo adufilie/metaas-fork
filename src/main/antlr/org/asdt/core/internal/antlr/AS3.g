@@ -26,6 +26,7 @@ grammar AS3;
 //   http://sourceforge.net/projects/aseclipseplugin/
 
 options {
+	language=Java;
 	k = 2;
 	output=AST;
 	ASTLabelType=LinkedListTree;
@@ -645,7 +646,7 @@ statement
 
 
 outOfFunctionStatement
-options { k = 3 }
+options { k = 3; }
 @init
 {
 // Hack for expression statement that is a simple name
@@ -1209,7 +1210,7 @@ assignmentExpression
 	;
 
 assignmentOperator
-options { k = 5 }
+options { k = 5; }
 	:	ASSIGN
 	| 	STAR ASSIGN -> STAR_ASSIGN
 	|	DIV_ASSIGN
@@ -1673,6 +1674,11 @@ LAND_ASSIGN		:	'&&='	;
 LOR_ASSIGN		:	'||='	;
 E4X_ATTRI		:	'@'	; 
 SEMI			:	';'	;
+SR			:	'>>'	;
+SR_ASSIGN		:	'>>='	;
+BSR			:	'>>>'	;
+BSR_ASSIGN		:	'>>>='	;
+GE			:	'>='	;
 
 
 DOT		:	'.'	;
