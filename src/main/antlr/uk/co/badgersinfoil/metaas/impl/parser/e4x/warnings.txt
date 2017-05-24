@@ -1,0 +1,40 @@
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_QUOTE XML_APOSTROPHE" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_QUOTE XML_QUOTE" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_APOSTROPHE '}'" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_QUOTE '}'" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_QUOTE '{'" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_APOSTROPHE {XML_ASSIGN, XML_NAME, XML_TEXT, XML_WS}" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_APOSTROPHE XML_APOSTROPHE" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_APOSTROPHE XML_QUOTE" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_QUOTE {XML_ASSIGN, XML_NAME, XML_TEXT, XML_WS}" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
+warning(200): E4X.g:124:3:
+Decision can match input such as "XML_APOSTROPHE '{'" using multiple alternatives: 1, 2
+
+As a result, alternative(s) 2 were disabled for that input
